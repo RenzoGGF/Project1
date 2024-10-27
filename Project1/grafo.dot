@@ -1,0 +1,28 @@
+digraph G {
+    A -> D [label="21"];
+    A -> E [label="15"];
+    A -> F [label="8"];
+    B -> A [label="2"];
+    B -> C [label="17"];
+    B -> F [label="3"];
+    C -> A [label="17"];
+    C -> E [label="3"];
+    C -> G [label="5"];
+    C -> H [label="8"];
+    D -> B [label="4"];
+    D -> E [label="1"];
+    D -> H [label="4"];
+    E -> B [label="1"];
+    E -> H [label="7"];
+    F -> C [label="10"];
+    F -> D [label="4"];
+    F -> E [label="12"];
+    G -> A [label="1"];
+    G -> B [label="18"];
+    G -> D [label="5"];
+    G -> E [label="8"];
+    G -> H [label="4"];
+    H -> A [label="8"];
+    H -> B [label="4"];
+    H -> F [label="11"];
+}
